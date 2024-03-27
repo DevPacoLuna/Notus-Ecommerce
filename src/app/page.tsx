@@ -7,7 +7,7 @@ export default async function Home() {
   const data = await getData();
 
   return (
-    <main>
+    <main className="main">
       {data.props.categories.map(
         (category: { name: string }, index: number) => (
           <p key={index}>{category.name}</p>

@@ -1,0 +1,38 @@
+html[data-theme="light"] {
+  --Brand-Colors-Primary-Color: #f76f8e;
+  --Brand-Colors-Secondary-Color: #3cb2b9;
+  --Brand-Colors-Alternate: #e7e7e7;
+  --Brand-Colors-Black-color-fix: #000000;
+  --Brand-Colors-White-color-fix: #ffffff;
+  --Brand-Colors-Smoke-color-fix: #f3f3f3;
+
+  // Utility colors
+
+  --Utility-Colors-Primary-Background: #ffffff;
+  --Utility-Colors-Secondary-Background: #f3f3f3;
+  --Utility-Colors-Primary-Text: #000000;
+  --Utility-Colors-Secondary-Text: rgba(44, 44, 44, 0.86);
+  --Utility-Colors-Tertiary-Text: #828282;
+
+  // Semantic colors
+  --Semantic-Colors-Alert-Background: rgba(60, 178, 185, 0.3);
+  --Semantic-Colors-Warning-Background: #fff7cd;
+  --Semantic-Colors-Warning-Yellow: #ffab03;
+  --Semantic-Colors-Warning-Red: #fee4e4;
+  --Semantic-Colors-Success: #98d075;
+  --Semantic-Colors-Error: #eb5757;
+  --Semantic-Colors-Link: #008de0;
+
+  // Custom colors
+  --Custom-Colors-Lines: rgba(19, 19, 19, 0.15);
+  --Custom-Colors-Indicator: #ffffff;
+  --Custom-Colors-Title-Bar: #000000;
+  --Custom-Colors-Alternative-Background: rgba(247, 111, 142, 0.4);
+  --Custom-Colors-Ilustrations-Huesped: #fcc5d2;
+  --Custom-Colors-Ilustrations-Anfitrion: #c5e8ea;
+  --Custom-Colors-Call-To-Action: #f3f3f3;
+  --Custom-Colors-Svg: invert(0%) sepia(93%) saturate(0%) hue-rotate(235deg)
+    brightness(107%) contrast(107%);
+  --Custom-Colors-Svg-Invert: invert(100%) sepia(6%) saturate(2%)
+    hue-rotate(270deg) brightness(112%) contrast(101%);
+}
