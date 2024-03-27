@@ -1,5 +1,6 @@
 import { gql } from "@apollo/client";
 import createApolloClient from "./apollo-client";
+import ReduxTest from "@/components/ReduxTest/ReduxTest";
 
 export default async function Home() {
   const data = await getData();
@@ -11,6 +12,10 @@ export default async function Home() {
           <p key={index}>{category.name}</p>
         )
       )}
+
+      <hr />
+
+      <ReduxTest />
     </main>
   );
 }
