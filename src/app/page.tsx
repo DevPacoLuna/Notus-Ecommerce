@@ -1,6 +1,7 @@
 import { gql } from "@apollo/client";
 import createApolloClient from "./apollo-client";
 import ReduxTest from "@/components/ReduxTest/ReduxTest";
+import Form from "@/components/Form/Form";
 
 export default async function Home() {
   const data = await getData();
@@ -16,6 +17,7 @@ export default async function Home() {
       <hr />
 
       <ReduxTest />
+      <Form />
     </main>
   );
 }
