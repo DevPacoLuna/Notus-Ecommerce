@@ -9,7 +9,7 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "format": "npm run prettier --write ."
+    "format": "npx prettier --write ."
   },
   "dependencies": {
     "@apollo/client": "^3.9.9",
