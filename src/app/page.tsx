@@ -11,7 +11,7 @@ export default async function Home() {
       {data.props.categories.map(
         (category: { name: string }, index: number) => (
           <p key={index}>{category.name}</p>
-        )
+        ),
       )}
 
       <hr />
